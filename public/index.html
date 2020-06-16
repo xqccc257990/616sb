@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="<%= BASE_URL %>resources_modules/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="<%= BASE_URL %>resources_modules/moment.min.js"></script>
+    <script src="<%= BASE_URL %>resources_modules/jurisdiction.js"></script>
+    <title>智能设备管理平台</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+    </style>
+     <script>
+        AJAX_URL="<%= process.env.VUE_APP_AJAX_URL %>";
+      </script>
+</head>
+
+<body>
+    <noscript>
+        <strong>很抱歉，没有启用JavaScript，无法正常工作。请让它继续。</strong>
+    </noscript>
+    <div id="app"></div>
+</body>
+
+</html>
